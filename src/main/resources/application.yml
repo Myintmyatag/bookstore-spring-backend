@@ -1,0 +1,12 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bookstore
+  application:
+    name: Bookstore
+  servlet:
+    multipart:
+      max-file-size: 50MB
+server:
+  port: 9000
